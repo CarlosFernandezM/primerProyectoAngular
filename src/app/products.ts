@@ -1,21 +1,24 @@
 export const products = [
   {
     id: 1,
-    name: "Phone XL",
-    price: 799,
-    description: "A large phone with one of the best screens"
+    name: "Xiaomi Redmi Note 6 Pro",
+    price: 169,
+    description: "A large phone with one of the best screens",
+    available: true
   },
   {
     id: 2,
-    name: "Phone Mini",
-    price: 99,
-    description: "A great phone with one of the best cameras"
+    name: "Xiaomi Redmi Note 8 Pro",
+    price: 279,
+    description: "A great phone with one of the best cameras",
+    available: false
   },
   {
     id: 3,
-    name: "Phone Standard",
-    price: 299,
-    description: ""
+    name: "Xiaomi Mi 11",
+    price: 800,
+    description: "",
+    available: true
   }
 ];
 
