@@ -2,6 +2,5 @@
   <button (click)="polleteDeLaVentana.emit()">Notify Me</button>
 </p> -->
 
-<p *ngIf="product.available">
-	<button (click)="polleteDeLaVentana.emit()">Notify Me</button>
-</p>
+
+<button style="margin: 10px" *ngIf="product.available" (click)="polleteDeLaVentana.emit()">Notify Me</button>
